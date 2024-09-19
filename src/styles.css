@@ -1,0 +1,24 @@
+/* styles.css */
+body.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+button {
+  transition: background-color 0.3s ease;
+}
+
+button.light-theme {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+button.dark-theme {
+  background-color: #444444;
+  color: #ffffff;
+}
