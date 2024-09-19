@@ -1,35 +1,20 @@
-# vue-project-weather
+# Погодное приложение
 
-This template should help get you started developing with Vue 3 in Vite.
+▎Описание
 
-## Recommended IDE Setup
+Погодное приложение — это простое и интуитивно понятное веб-приложение, которое предоставляет пользователям актуальную информацию о погоде в различных городах. С помощью нашего приложения вы можете быстро узнать текущие погодные условия, прогноз на несколько дней вперед и другую полезную информацию.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+▎Основные функции
 
-## Customize configuration
+- Поиск погоды по городу: Введите название города, и приложение покажет текущую погоду, включая температуру, влажность и скорость ветра.
+- Прогноз на несколько дней: Узнайте, какая погода ожидается в вашем городе в ближайшие дни.
+- Интуитивно понятный интерфейс: Простота использования и чистый дизайн позволяют легко находить нужную информацию.
+- Адаптивный дизайн: Приложение корректно отображается на различных устройствах, включая мобильные телефоны и планшеты.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+▎Технологии
 
-## Project Setup
+- Frontend: React.js
+- API: Использует [OpenWeatherMap API](https://openweathermap.org/api) для получения данных о погоде.
+- Axios: Для выполнения HTTP-запросов к API.
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+* Так же реализована функция смены темы
